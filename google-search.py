@@ -10,4 +10,4 @@ if __name__ == "__main__":
     searchElement.send_keys('千鳥')
 
     driver.find_element_by_id("search-icon-legacy").click()
-    #driver.quit()
+    driver.quit()
